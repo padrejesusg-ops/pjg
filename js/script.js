@@ -1,0 +1,1 @@
+const lb=document.getElementById("lightbox"),im=document.getElementById("lbimg");document.querySelectorAll(".item img").forEach(i=>i.onclick=()=>{im.src=i.src;lb.style.display="flex"});lb.onclick=()=>lb.style.display="none";
